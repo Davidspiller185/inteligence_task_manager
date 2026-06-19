@@ -117,7 +117,7 @@ pip install mysql-connector-python
 python -m venv .venv
 source .venv/Scripts/activate
 pip install 'fastapi[standard]'
-pip frezze > requirements.txt
+pip freeze > requirements.txt
 uvicorn main:app
 ```
 
